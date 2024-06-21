@@ -1,5 +1,5 @@
 import em from "./em.png"
-import pc from "./pc.png"
+import pc from "./pccccp.png"
 import dis from "./whatsapp.png"
 import ig from "./igg.png"
 import email from "./em.png"
@@ -14,11 +14,26 @@ function Footer() {
                                         <div className="company-footer">
                                                 <p className="logoText" >PASHUHOLIC FOUNDATION</p>
                                                 <p className="footer-about" >An initiative to save stray animals</p>
-                                                <p className="footer-reach">Reach out to us</p>
+                                                {/* <p className="footer-reach">Reach out to us</p>
                                                 <p className="footer-about" >Get your questions answered about Pashuholic</p>
                                                 <div className="footer-icons">
 
-                                                        <p className="footer-email" ><a href="mailto:pashuholicfoundation@gmail.com" >pashuholic@gmail.com</a></p>
+                                                        <p className="footer-email" ><a href="mailto:pashuholic@gmail.com" >pashuholic@gmail.com</a></p>
+                                                </div> */}
+
+                                                <div className="con-opts">
+                                                        <div className="con-opt">
+                                                                <img className="con-img" src={pc} />
+                                                                <p className="con-text fp">7018614124</p>
+                                                        </div>
+                                                        <div className="con-opt">
+                                                                <img className="con-img" src={pc} />
+                                                                <p className="con-text fp">8219422639</p>
+                                                        </div>
+                                                        {/* <div className="con-opt">
+                                                                <img className="con-img" src={mail} />
+                                                                <p className="con-text">pashuholic@gmail.com</p>
+                                                        </div> */}
                                                 </div>
 
                                         </div>
@@ -72,7 +87,7 @@ function Footer() {
                                                 <a href="mailto:pashuholic@gmail.com" target="blank">
                                                         <img className="lower-footer-icon" src={email} />
                                                 </a>
-                                                <a href="https://instagram.com/strayfarm" target="blank">
+                                                <a href="https://instagram.com/pashuholic" target="blank">
                                                         <img className="lower-footer-icon" src={ig} />
                                                 </a>
 

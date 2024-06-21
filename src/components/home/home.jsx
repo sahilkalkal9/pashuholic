@@ -267,18 +267,9 @@ function Home() {
 
                                 </form>
 
-                                <p className="or" >OR</p>
+                                {/* <p className="or" >OR</p> */}
 
-                                <div className="con-opts">
-                                    <div className="con-opt">
-                                        <img className="con-img" src={pc} />
-                                        <p className="con-text">0123456789</p>
-                                    </div>
-                                    <div className="con-opt">
-                                        <img className="con-img" src={mail} />
-                                        <p className="con-text">pashuholic@gmail.com</p>
-                                    </div>
-                                </div>
+                                
 
 
                             </div>
@@ -286,8 +277,7 @@ function Home() {
                                 <div className="map-box" >
                                     <Iframe
                                         url={`https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d108057.93022279699!2d76.32887933823098!3d32.18238928942553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x391b5340ac47fe61%3A0x2399a5bc34ba69d8!2sPashuholic%20Foundation%2C%20Bagiarra%2C%20Himachal%20Pradesh%20176052!3m2!1d32.182415999999996!2d76.4112806!5e0!3m2!1sen!2sin!4v1713156377022!5m2!1sen!2sin`}
-                                        width="600px"
-                                        height="400px"
+                                        
                                         loading="lazy"
                                         allowFullScreen
                                         className="map"

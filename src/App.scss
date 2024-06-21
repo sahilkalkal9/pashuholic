@@ -493,8 +493,9 @@
 .con-opts {
   display: flex;
   flex-direction: column;
-  gap: .3cm;
-  align-items: center;
+  margin-top: .3cm;
+  // gap: .3cm;
+  // align-items: center;
 }
 
 
@@ -585,11 +586,19 @@
   padding: .5cm 10vw 0.2cm 10vw;
 }
 
+.contact-left,
+.contact-right {
+  width: 100%;
+}
+
 .map {
 
   // border: none;
   border-radius: 10px;
   border: 1px solid #1e1e20;
+  width: 100%;
+  height: 9.5cm
+
 
 }
 
@@ -980,6 +989,10 @@
 .loc {
   width: .6cm;
   height: .6cm;
+}
+
+.fp{
+  color: white;
 }
 
 
