@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet"
 import "../../App.scss"
 import Nav from "../nav/nav"
-import qr from "./qr.png"
+import qr from "./qr.jpg"
 
 function Donate() {
     return (
@@ -45,7 +45,7 @@ function Donate() {
 
 
                         <div className="donation-methods">
-                            <div className="donation-method">
+                            {/* <div className="donation-method">
                                 <p className="donation-method-head" >1. Amazon Wishlist</p>
                                 <div className="wishlist-box">
                                     <p className="donation-method-text">
@@ -53,14 +53,14 @@ function Donate() {
                                     </p>
                                     <button className="wish-box">Amazon Whishlist</button>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="donation-method">
-                                <p className="donation-method-head" >2. Bank Transfer</p>
+                                <p className="donation-method-head" >1. Bank Transfer</p>
                                 <div className="bank-box">
                                     <p className="bank-det">Bank Name : <b>ABC Bank</b> </p>
                                     <p className="bank-det">Account Name : <b>Pashuholic Foundation</b> </p>
-                                    <p className="bank-det">Account No. : <b>01234567890132456</b> </p>
+                                    <p className="bank-det">Account No. : <b>6710000100060915</b> </p>
                                     <p className="bank-det">Account Type : <b>Current</b> </p>
                                     <p className="bank-det">IFSC Code : <b>ABCD00000</b> </p>
                                 </div>
@@ -68,23 +68,19 @@ function Donate() {
 
 
                             <div className="donation-method">
-                                <p className="donation-method-head" >3. UPI IDs & QR Codes</p>
+                                <p className="donation-method-head" >2. Mobile No. & QR Codes</p>
                                 <div className="bank-box">
-                                    <p className="bank-det">UPI ID : <b>upi@upi</b></p>
-                                    <p className="bank-det">UPI ID : <b>upi@upi</b></p>
-                                    <p className="bank-det">UPI ID : <b>upi@upi</b></p>
-                                    <p className="bank-det">UPI ID : <b>upi@upi</b></p>
+                                    <p className="bank-det"><b>+91 7018614124</b></p>
+                                    <p className="bank-det"><b>+91 8219422639</b></p>
 
                                     <div className="qrs">
                                         <img className="qr" src={qr} />
-                                        <img className="qr" src={qr} />
-                                        <img className="qr" src={qr} />
-                                        <img className="qr" src={qr} />
+
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="donation-method">
+                            {/* <div className="donation-method">
                                 <p className="donation-method-head" >4. Milaap Fundraiser</p>
                                 <div className="wishlist-box">
                                     <p className="donation-method-text">
@@ -92,7 +88,7 @@ function Donate() {
                                     </p>
                                     <button className="wish-box">Milaap Fundraiser</button>
                                 </div>
-                            </div>
+                            </div> */}
 
 
                         </div>

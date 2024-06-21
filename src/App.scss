@@ -17,8 +17,6 @@
 }
 
 
-// homepage
-
 .home-box {
   position: relative;
 
@@ -123,7 +121,6 @@
 }
 
 // navigation
-
 .nav-box {
   padding: .5cm 10vw;
   display: flex;
@@ -818,6 +815,7 @@
 
 .qrs {
   display: flex;
+  flex-wrap : wrap;
   gap: .3cm;
   margin-top: .2cm;
 }

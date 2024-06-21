@@ -18,7 +18,7 @@ function Footer() {
                                                 <p className="footer-about" >Get your questions answered about Pashuholic</p>
                                                 <div className="footer-icons">
 
-                                                        <p className="footer-email" ><a href="mailto:strayfarm9@gmail.com" >pashuholic@gmail.com</a></p>
+                                                        <p className="footer-email" ><a href="mailto:pashuholicfoundation@gmail.com" >pashuholic@gmail.com</a></p>
                                                 </div>
 
                                         </div>
