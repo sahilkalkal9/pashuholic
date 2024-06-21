@@ -654,7 +654,7 @@
   align-items: flex-start;
   justify-content: space-between;
 
-  padding-bottom: .3cm;
+  // padding-bottom: .3cm;
   border-bottom: thin solid #3a3a3a
 }
 
@@ -702,10 +702,13 @@
   display: flex;
   align-items: center;
   column-gap: .3cm;
+  // border: 1px solid white;
+  padding: .3cm;
+  margin-top: .2cm;
 }
 
 .lower-footer-icon {
-  width: .8cm;
+  width: 1cm;
   height: auto;
   cursor: pointer;
   transition: .2s all;

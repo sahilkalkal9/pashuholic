@@ -35,8 +35,21 @@ function Footer() {
                                                                 <p className="con-text">pashuholic@gmail.com</p>
                                                         </div> */}
                                                 </div>
+                                                <div className="lower-footer-icons">
+
+                                                        <a href="mailto:pashuholic@gmail.com" target="blank">
+                                                                <img className="lower-footer-icon" src={email} />
+                                                        </a>
+                                                        <a href="https://instagram.com/pashuholic" target="blank">
+                                                                <img className="lower-footer-icon" src={ig} />
+                                                        </a>
+
+
+
+                                                </div>
 
                                         </div>
+
                                         {/* <div className="second-footer">
                                                 <div className="">
                                                         <p className="footer-head-sub">Comapany</p>
@@ -82,18 +95,7 @@ function Footer() {
                                 </div>
                                 <div className="lower-footer">
                                         <p className="footer-lower-txt" >&copy;2021 Pashuholic Foundation  </p>
-                                        <div className="lower-footer-icons">
 
-                                                <a href="mailto:pashuholic@gmail.com" target="blank">
-                                                        <img className="lower-footer-icon" src={email} />
-                                                </a>
-                                                <a href="https://instagram.com/pashuholic" target="blank">
-                                                        <img className="lower-footer-icon" src={ig} />
-                                                </a>
-
-
-
-                                        </div>
                                 </div>
                         </div>
                 </div>
