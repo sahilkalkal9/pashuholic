@@ -58,11 +58,11 @@ function Donate() {
                             <div className="donation-method">
                                 <p className="donation-method-head" >1. Bank Transfer</p>
                                 <div className="bank-box">
-                                    <p className="bank-det">Bank Name : <b>ABC Bank</b> </p>
+                                    <p className="bank-det">Bank Name : <b>Punjab National Bank</b> </p>
                                     <p className="bank-det">Account Name : <b>Pashuholic Foundation</b> </p>
                                     <p className="bank-det">Account No. : <b>6710000100060915</b> </p>
                                     <p className="bank-det">Account Type : <b>Current</b> </p>
-                                    <p className="bank-det">IFSC Code : <b>ABCD00000</b> </p>
+                                    <p className="bank-det">IFSC Code : <b>PUNB0671000</b> </p>
                                 </div>
                             </div>
 
