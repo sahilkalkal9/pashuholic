@@ -42,7 +42,9 @@ function Home() {
                     <div className="intro-box">
                         <div className="intro-box-sub">
                             <p className="name" >
-                                <span className="pashu">पशु</span>HOLIC FOUNDATION
+                                {/* <span className="pashu">पशु</span> */}
+
+                                PASHUHOLIC FOUNDATION
                             </p>
                             <p className="tagline">
                                 unveiling the voices of the lovely animals
