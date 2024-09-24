@@ -93,7 +93,7 @@ function Home() {
                                 </div>
                                 <div className="home-card-lower">
                                     <p className="home-card-head">RESCUE</p>
-                                    <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                    {/* <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> */}
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@ function Home() {
                                 </div>
                                 <div className="home-card-lower">
                                     <p className="home-card-head">TREATMENT</p>
-                                    <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                    {/* <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> */}
                                 </div>
                             </div>
 
@@ -113,7 +113,7 @@ function Home() {
                                 </div>
                                 <div className="home-card-lower">
                                     <p className="home-card-head">CARE</p>
-                                    <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                    {/* <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> */}
                                 </div>
                             </div>
 
@@ -123,7 +123,7 @@ function Home() {
                                 </div>
                                 <div className="home-card-lower">
                                     <p className="home-card-head">STERILIZATIONS</p>
-                                    <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                    {/* <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> */}
                                 </div>
                             </div>
 
@@ -133,7 +133,7 @@ function Home() {
                                 </div>
                                 <div className="home-card-lower">
                                     <p className="home-card-head">FEEDING</p>
-                                    <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                    {/* <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> */}
                                 </div>
                             </div>
 
@@ -143,7 +143,7 @@ function Home() {
                                 </div>
                                 <div className="home-card-lower">
                                     <p className="home-card-head">RELEASE</p>
-                                    <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                    {/* <p className="home-card-dets">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> */}
                                 </div>
                             </div>
 
